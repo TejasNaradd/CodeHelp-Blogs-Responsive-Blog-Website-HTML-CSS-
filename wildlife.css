@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hwb(160 15% 54% / 0.93);
+}
+.container{
+   max-width: 95vw;
+   padding: 2rem 1rem;
+    margin: 0  auto;
+    padding-bottom: 0;
+}
+.head_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.head_container h1{
+    font-size: 3rem;
+}
+.head_container p{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+}
+.main_container{
+    margin-top:45px ;
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    align-self: center;
+    justify-self: center;
+}
+.card_container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card_container img{
+    width: 500px;
+    object-fit: cover;
+}
